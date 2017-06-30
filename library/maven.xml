@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<maven>
+    <artifacts>nabu:eai-module-web-renderer</artifacts>
+    <internalDomains>nabu</internalDomains>
+    <updateSnapshots>false</updateSnapshots>
+    <encapsulated>true</encapsulated>
+</maven>

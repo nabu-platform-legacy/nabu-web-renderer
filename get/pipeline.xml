@@ -1,0 +1,13 @@
+<structure name="pipeline">
+    <structure name="input">
+        <field name="webApplicationId" type="java.lang.String"/>
+        <field name="url" type="java.net.URI"/>
+        <field minOccurs="0" name="charset" type="java.nio.charset.Charset"/>
+        <field minOccurs="0" name="removeIncludes" type="java.lang.Boolean"/>
+        <structure definition="be.nabu.libs.authentication.api.Token" minOccurs="0" name="token"/>
+    </structure>
+    <structure name="output">
+        <field minOccurs="0" name="content" type="java.lang.String"/>
+    </structure>
+    <field name="code" type="java.lang.Integer"/>
+</structure>
