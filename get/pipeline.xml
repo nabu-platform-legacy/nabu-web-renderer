@@ -6,6 +6,7 @@
         <field minOccurs="0" name="removeIncludes" type="java.lang.Boolean"/>
         <structure definition="be.nabu.libs.authentication.api.Token" minOccurs="0" name="token"/>
         <structure definition="be.nabu.utils.mime.api.Header" maxOccurs="unbounded" minOccurs="0" name="headers"/>
+        <field minOccurs="0" name="javascript" type="java.lang.String"/>
     </structure>
     <structure name="output">
         <field minOccurs="0" name="content" type="java.lang.String"/>
