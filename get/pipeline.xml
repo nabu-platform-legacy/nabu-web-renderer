@@ -7,10 +7,14 @@
         <structure definition="be.nabu.libs.authentication.api.Token" minOccurs="0" name="token"/>
         <structure definition="be.nabu.utils.mime.api.Header" maxOccurs="unbounded" minOccurs="0" name="headers"/>
         <field minOccurs="0" name="javascript" type="java.lang.String"/>
+        <field minOccurs="0" name="language" type="java.lang.String"/>
+        <field minOccurs="0" name="disableSsrBypass" type="java.lang.Boolean"/>
+        <field minOccurs="0" name="disableCss" type="java.lang.Boolean"/>
     </structure>
     <structure name="output">
         <field minOccurs="0" name="content" type="java.lang.String"/>
         <structure definition="be.nabu.utils.mime.api.Header" maxOccurs="unbounded" minOccurs="0" name="headers"/>
     </structure>
     <field name="code" type="java.lang.Integer"/>
+    <structure definition="be.nabu.utils.mime.api.Header" minOccurs="0" name="languageAcceptHeader"/>
 </structure>
