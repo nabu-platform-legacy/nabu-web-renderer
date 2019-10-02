@@ -10,6 +10,7 @@
         <field minOccurs="0" name="language" type="java.lang.String"/>
         <field minOccurs="0" name="disableSsrBypass" type="java.lang.Boolean"/>
         <field minOccurs="0" name="disableCss" type="java.lang.Boolean"/>
+        <field minOccurs="0" name="host" type="java.lang.String"/>
     </structure>
     <structure name="output">
         <field minOccurs="0" name="content" type="java.lang.String"/>

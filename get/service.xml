@@ -148,6 +148,15 @@
 				<from>input/disableCss</from>
 				<to>disableCss</to>
 			</steps>
+			<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+					disabled="false"
+					id="04082f7f-0310-4907-ab2d-187136015fa0"
+					mask="false"
+					optional="false"
+					fixedValue="false">
+				<from>input/host</from>
+				<to>host</to>
+			</steps>
 		</steps>
 		<steps xsi:type="be.nabu.libs.services.vm.step.Invoke"
 				disabled="false"
